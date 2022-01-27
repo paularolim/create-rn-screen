@@ -1,11 +1,11 @@
 {
   "name": "create-rn-screen",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "This is a simple library for automated and standardized creation of screens and components in react native",
-  "repository": "",
+  "repository": "https://github.com/paularolim/create-rn-screen",
   "main": "index.js",
   "bin": {
-    "create-rn-screen": "./index.js"
+    "create-rn-screen": "index.js"
   },
   "keywords": [
     "create",

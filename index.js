@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 require('colors');
 const { createFolder } = require('./src/createFolder');
 const { createIndex } = require('./src/createIndex');
@@ -8,6 +9,8 @@ const { readFile } = require('./src/readFile');
 
 const firstParam = process.argv[2];
 const secondParam = process.argv[3];
+
+console.log('Running create-rn-screen');
 
 if (firstParam === '--init') {
   init();
